@@ -1,0 +1,13 @@
+var os  = require('os');
+console.log('OS type: ',os.type());
+console.log('OS type:',os.platform());
+console.log('OS type:',os.release());
+console.log('OS type:',os.arch());
+console.log('OS type:',os.hostname());
+console.log('OS type:',os.tmpdir());
+console.log('OS type:',os.endianness());
+console.log('OS type:',os.totalmem());
+console.log('OS type:',os.freemem());
+console.log('OS type:',os.cpus());
+console.log('OS type:',os.networkInterfaces());
+console.log('OS type:',os.uptime());
